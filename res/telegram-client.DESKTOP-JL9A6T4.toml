@@ -1,0 +1,20 @@
+[log]
+type = "console"
+path = "tdlib.log"
+level = 1
+
+[sender]
+send = false
+min-wait = 3.0
+max-wait = 8.0
+timeout = 300.0
+
+[paths]
+keywords = "res/keywords.json"
+message = "res/message.txt"
+scammer-account = "res/scammer_account.txt"
+about = "res/about.txt"
+session = "tdlib-kha"
+
+[mongo]
+url = "mongodb://%USERNAME%:%PASSWORD%@%ADDRESS%:%PORT%/"

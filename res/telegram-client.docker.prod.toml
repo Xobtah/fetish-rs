@@ -1,0 +1,20 @@
+[log]
+type = "console"
+path = "tdlib.log"
+level = 1
+
+[sender]
+send = true
+min-wait = 3.0
+max-wait = 8.0
+timeout = 300.0
+
+[paths]
+keywords = "/opt/fetish/keywords.json"
+message = "/opt/fetish/message.txt"
+scammer-account = "/opt/fetish/scammer_account.txt"
+about = "/opt/fetish/about.txt"
+session = "/opt/fetish/tdlib"
+
+[mongo]
+url = "mongodb://%USERNAME%:%PASSWORD%@%ADDRESS%:%PORT%/"

@@ -1,0 +1,13 @@
+[package]
+name = "config"
+version = "0.1.0"
+authors = ["Xobtah"]
+edition = "2018"
+
+[dependencies]
+toolkit = "0.1.1"
+toml = "0.5.8"
+log = "0.4.14"
+rtdlib = { version = "1.7.0", features = [ "sys" ] }
+hostname = "0.1.5"
+urlencoding = "1.1.1"
